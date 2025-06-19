@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VisualStat Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js" defer></script>
+</head>
+
+<body>
+<header>
+<!--    <h1>VisualStat</h1>-->
+    <div class="display" style="width: 600px; margin: 0 auto;">
+        <img id="graph" alt="main graph" src="main_banner.png" style="width:600px; height:400px;">
+        <p>Generate and download statistical distributions </p>
+    </div>
+</header>
+
+
+
+<footer>
+    <div id="buttons" style="width: 600px; margin: 0 auto;">
+        <button id="uniform" type="button">Uniform Distribution</button>
+        <button id="binom" type="button">Binomial Distribution</button>
+        <button id="healthCheck" type="button">Health Check</button>
+        <button id="download" type="button">Download Image</button>
+    </div>
+</footer>
+</body>
+</html>
